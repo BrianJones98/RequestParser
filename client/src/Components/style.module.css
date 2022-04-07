@@ -1,42 +1,39 @@
-.formContainer{
+.componentContainer{
     display: inline-block;
+    flex-direction: column;
+    justify-content: space-around;
     width: 600px;
-    padding: 10px;
-    border: 1px solid black;
-    background-color: #00CCB4;
+    background-color: #040411;
     text-align: center;
-    box-shadow: 2px 2px 2px black;
 }
-    .formContainer textarea{
-        height: 500px;
-        width: 500px;
-        border: 1px solid black;
-        box-shadow: 2px 2px 2px black;
-        background-color: #ADFFF5;
-    }
-        .formContainer textarea:focus{
-            outline: none;
-        }
-    .formContainer button{
+    .componentContainer h2{
         display: block;
-        margin: 10px auto;
-        padding: 10px 25px;
-        font-size: 20px;
-        background-color: #00665A;
-        color: white;
-        border: 1px solid black;
-        box-shadow: 2px 2px 2px black;
+        font-size: 40px;
+        padding: 10px;
+        border-bottom: 2px solid #E3B93B;
     }
-        .formContainer button:hover{
-            background-color: #00A390;
+    .componentContainer textarea{
+        background-color: #222222;
+        color: #EBEBEB;
+        font-size: 15px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        width: 96%;
+        height: 50vh;
+    }
+    .componentContainer button{
+        display: block;
+        margin: auto;
+        background-color: #040411;
+        border: 2px solid #E3B93B;
+        text-decoration: none;
+        color: #EBEBEB;
+        font-size: 30px;
+        font-weight: bolder;
+        border-radius: 20px;
+        padding: 10px 50px;
+    }
+        .componentContainer button:hover{
+            background: rgba(45, 46, 45, 0.7);
         }
-
-.resultContainer{
-    display: inline-block;
-    width: 600px;
-    padding: 10px;
-    border: 1px solid black;
-    background-color: #00CCB4;
-    text-align: center;
-    box-shadow: 2px 2px 2px black;
-}

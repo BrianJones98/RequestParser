@@ -8,11 +8,10 @@ import ResultWindow from '../Components/ResultWindow';
 //Style Imports
 import styles from './style.module.css';
 
-const Main = _props => {
+const Parser = _props => {
     return (
-        <div className={styles.appWrapper}>
-            <h1>Request Parser</h1>
-            <div className={styles.contentWrapper}>
+        <div>
+            <div className={styles.viewWrapper}>
                 <RequestForm />
                 <ResultWindow />
             </div>
@@ -20,4 +19,4 @@ const Main = _props => {
     );
 }
 
-export default Main;
+export default Parser;

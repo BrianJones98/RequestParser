@@ -1,3 +1,26 @@
 .App {
-  text-align: center;
+	text-align: center;
+	background-color: #040411;
 }
+	.App header{
+		border-bottom: 5px solid #E3B93B;
+		display: flex;
+		justify-content: space-between;
+		padding: 10px;
+	}
+		.App header a{
+			background-color: #040411;
+			border: 2px solid #E3B93B;
+			text-decoration: none;
+			color: #EBEBEB;
+			font-size: 30px;
+			font-weight: bolder;
+			border-radius: 20px;
+			padding: 10px 50px;
+		}
+			.App header a:hover{
+				background: rgba(45, 46, 45, 0.7);
+			}
+		.App header h1{
+			font-size: 50px;
+		}

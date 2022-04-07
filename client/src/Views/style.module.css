@@ -1,27 +1,6 @@
-.appWrapper{
-    margin: 50px;
-    padding: 20px;
-    background-color: #003D36;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px black;
-}
-    .appWrapper h1{
-        font-size: 75px;
-        display: block;
-        width: max-content;
-        margin: 10px auto;
-        padding: 10px;
-        background-color: #00665A;
-        color: white;
-        border: 1px solid black;
-        box-shadow: 2px 2px 2px black;
-    }
-
-.contentWrapper{
+.viewWrapper{
+    background: rgba(115, 115, 115, 0.5);
     display: flex;
     padding: 25px;
-    background-color: #00665A;
     justify-content: space-evenly;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px black;
 }

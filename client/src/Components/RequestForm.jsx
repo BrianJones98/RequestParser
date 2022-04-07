@@ -11,7 +11,7 @@ const RequestForm = _props => {
     }
 
     return (
-        <div className={styles.formContainer}>
+        <div className={styles.componentContainer}>
             <h2>Paste request below</h2>
             <form onSubmit={handleSubmit}>
                 <textarea 
